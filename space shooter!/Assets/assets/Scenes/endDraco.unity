@@ -1653,13 +1653,15 @@ GameObject:
   - component: {fileID: 2107901304}
   - component: {fileID: 2107901303}
   - component: {fileID: 2107901302}
-  - component: {fileID: 2107901301}
   - component: {fileID: 2107901300}
-  - component: {fileID: 2107901299}
   - component: {fileID: 2107901308}
   - component: {fileID: 2107901307}
+  - component: {fileID: 2107901311}
+  - component: {fileID: 2107901310}
   - component: {fileID: 2107901309}
   - component: {fileID: 2107901306}
+  - component: {fileID: 2107901301}
+  - component: {fileID: 2107901299}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1669,23 +1671,31 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &2107901299
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107901298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 3
+  itemId: 15
   indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: scene5
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
+  storyText: this...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &2107901300
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1701,7 +1711,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 357
-    y: 107
+    y: 108
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1710,33 +1720,34 @@ MonoBehaviour:
   blockName: scene5
   description: 
   eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 2107901299}
+  commandList: []
 --- !u!114 &2107901301
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107901298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1
+  itemId: 14
   indentLevel: 0
-  text: easy mode
+  storyText: ' believe'
   description: 
-  targetBlock: {fileID: 2107901300}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &2107901302
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1765,7 +1776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 125
+    x: 124
     y: 92
     width: 120
     height: 40
@@ -1777,10 +1788,13 @@ MonoBehaviour:
   eventHandler: {fileID: 2107901302}
   commandList:
   - {fileID: 2107901308}
-  - {fileID: 2107901307}
+  - {fileID: 2107901311}
   - {fileID: 2107901309}
+  - {fileID: 2107901307}
   - {fileID: 2107901306}
   - {fileID: 2107901301}
+  - {fileID: 2107901299}
+  - {fileID: 2107901310}
 --- !u!114 &2107901304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1806,8 +1820,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2107901300}
-  selectedCommands: []
+  - {fileID: 2107901303}
+  selectedCommands:
+  - {fileID: 2107901310}
   variables: []
   description: 
   stepPause: 0
@@ -1845,9 +1860,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 11
+  itemId: 13
   indentLevel: 0
-  storyText: "dekete this after \nnext loaded scene game crashes ---- "
+  storyText: NOT
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1874,7 +1889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: 'draco accepts info '
+  storyText: will
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1901,7 +1916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: 'now give me the info '
+  storyText: 'Thank you kindly Dear player. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1926,9 +1941,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  storyText: 'you  '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107901310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107901298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  storyText: 'Those fools have the same password across their fb, twitter and media
+    accounts! '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107901311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107901298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: 'draco: game will be easy now '
+  storyText: I could not have done this wihtout you
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

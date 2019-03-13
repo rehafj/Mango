@@ -17,6 +17,7 @@ public class TwilioConversationData
 
 public class TwilioConnection : MonoBehaviour
 {
+    public string Name ="";
     Flowchart fl;
     public TextMesh myText;
     string ngrokPath = "http://962fc00d.ngrok.io/";
@@ -86,10 +87,17 @@ public class TwilioConnection : MonoBehaviour
     void nameChanged(String user_name){
         print("Name changed!");
         myText.text = "HELLO " + user_name;
+        Name = user_name;
         Fungus.Flowchart.BroadcastFungusMessage("R1");
         return;
     }
-    
+
+    //this is called after name changed sends the fungus message. 
+    //not sure what is the varible being changed so for now setting it to public varible Name;
+    public string returnName()
+    {
+        return Name;
+    }
     void crashChanged(bool crash){
         print("crash changed!");
         if(crash){

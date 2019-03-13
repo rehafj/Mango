@@ -112,6 +112,99 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &49693552
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7140785157789096149, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_Name
+      value: GUIchar
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.491192
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.6645746
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.17074811
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140785157789096148, guid: 0c2287e184d56f245b7923cad6d32a76,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c2287e184d56f245b7923cad6d32a76, type: 3}
+--- !u!114 &49693553 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7140785156114495897, guid: 0c2287e184d56f245b7923cad6d32a76,
+    type: 3}
+  m_PrefabInstance: {fileID: 49693552}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &49693554 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7140785156604027058, guid: 0c2287e184d56f245b7923cad6d32a76,
+    type: 3}
+  m_PrefabInstance: {fileID: 49693552}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &147308031
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,8 +738,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1353320036}
+  - component: {fileID: 1353320037}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: talk to fungus example
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -666,6 +760,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1353320037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353320035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb5127c2e94074e4686d37b58529a8a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1449593470
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,6 +801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bfcd9e942efbe43af8ffbc15f09262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: 
   myText: {fileID: 991360582}
 --- !u!4 &1449593472
 Transform:
@@ -739,6 +846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bfcd9e942efbe43af8ffbc15f09262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: 
   myText: {fileID: 991360582}
 --- !u!4 &1814585970
 Transform:
@@ -769,11 +877,19 @@ GameObject:
   - component: {fileID: 1819785433}
   - component: {fileID: 1819785432}
   - component: {fileID: 1819785440}
-  - component: {fileID: 1819785445}
   - component: {fileID: 1819785444}
   - component: {fileID: 1819785443}
   - component: {fileID: 1819785442}
   - component: {fileID: 1819785430}
+  - component: {fileID: 1819785441}
+  - component: {fileID: 1819785439}
+  - component: {fileID: 1819785438}
+  - component: {fileID: 1819785431}
+  - component: {fileID: 1819785445}
+  - component: {fileID: 1819785449}
+  - component: {fileID: 1819785448}
+  - component: {fileID: 1819785447}
+  - component: {fileID: 1819785446}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -788,7 +904,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819785429}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
@@ -800,6 +916,33 @@ MonoBehaviour:
     stringVal: scene4_NEW
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1819785431
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819785429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  storyText: it will display the name in the script {$_name}
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1819785432
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -819,7 +962,7 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 49693553}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -844,9 +987,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'DRACO: we do not have alot of time'
+  storyText: we do not have alot of time
   description: 
-  character: {fileID: 0}
+  character: {fileID: 49693553}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -885,8 +1028,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 64
-    y: 70
+    x: 65
+    y: 69
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -899,6 +1042,9 @@ MonoBehaviour:
   - {fileID: 1819785433}
   - {fileID: 1819785440}
   - {fileID: 1819785432}
+  - {fileID: 1819785441}
+  - {fileID: 1819785438}
+  - {fileID: 1819785431}
 --- !u!114 &1819785436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -925,10 +1071,9 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1819785444}
-  selectedCommands:
-  - {fileID: 1819785430}
+  selectedCommands: []
   variables:
-  - {fileID: 1819785445}
+  - {fileID: 1819785439}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -953,6 +1098,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1819785438
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819785429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  storyText: 'these two lines are for testing - deleet after '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1819785439
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819785429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: _name
+  value: name
 --- !u!114 &1819785440
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -967,9 +1154,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: 'DRACO: Let''s see if this old mechanic is still working.'
+  storyText: Let's see if this old mechanic is still working.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 49693553}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -980,6 +1167,34 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1819785441
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819785429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1353320035}
+  targetComponentAssemblyName: TALKTOFUNGUS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: TALKTOFUNGUS
+  targetMethod: getVarible
+  targetMethodText: 'getVarible (): String'
+  methodParameters: []
+  saveReturnValue: 1
+  returnValueVariableKey: _name
+  returnValueType: System.String
+  showInherited: 0
+  callMode: 0
 --- !u!114 &1819785442
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -994,10 +1209,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: 'Got it! '
+  storyText: Got it! {$_name}
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 49693553}
+  portrait: {fileID: 21300000, guid: 890d170b7b90076488a6fbaa298a5b02, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1035,7 +1250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 261
+    x: 259
     y: 82
     width: 120
     height: 40
@@ -1046,7 +1261,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1819785443}
   commandList:
+  - {fileID: 1819785445}
   - {fileID: 1819785442}
+  - {fileID: 1819785449}
+  - {fileID: 1819785448}
+  - {fileID: 1819785447}
+  - {fileID: 1819785446}
   - {fileID: 1819785430}
 --- !u!114 &1819785445
 MonoBehaviour:
@@ -1057,9 +1277,130 @@ MonoBehaviour:
   m_GameObject: {fileID: 1819785429}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: Var
-  value: 0
+  itemId: 15
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1449593470}
+  targetComponentAssemblyName: TwilioConnection, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: TwilioConnection
+  targetMethod: returnName
+  targetMethodText: 'returnName (): String'
+  methodParameters: []
+  saveReturnValue: 1
+  returnValueVariableKey: _name
+  returnValueType: System.String
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1819785446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819785429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  storyText: Hey what is going on here. This isnt where you should be
+  description: 
+  character: {fileID: 49693554}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1819785447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819785429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  storyText: ' Now you can get me the pass-'
+  description: 
+  character: {fileID: 49693553}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1819785448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819785429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  indentLevel: 0
+  storyText: 'I made this game easier for you, but first I need a bit of info '
+  description: 
+  character: {fileID: 49693553}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1819785449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819785429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 16
+  indentLevel: 0
+  storyText: Thanks, {$_name}  Nice to meet you !
+  description: 
+  character: {fileID: 49693553}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
